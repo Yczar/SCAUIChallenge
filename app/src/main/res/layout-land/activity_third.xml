@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="#f8f4f8"
+    android:layout_height="match_parent"
+    tools:context=".ThirdActivity">
+    <LinearLayout
+        android:layout_weight="1"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/third"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_height="0dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/work_sans"
+                android:gravity="center"
+                android:text="Stay Focused"
+                android:textColor="#212121"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:fontFamily="@font/work_sans"
+                android:gravity="center"
+                android:text="Let's maintain your focus by meditating\n every day without hassle"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:gravity="bottom|center"
+                android:layout_height="match_parent">
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Get Started"
+                        android:paddingStart="10dp"
+                        android:paddingEnd="10dp"
+                        android:textColor="#fff"
+                        android:textStyle="bold"
+                        android:drawablePadding="5dp"
+                        android:drawableRight="@drawable/enter_"
+                        android:fontFamily="@font/work_sans"
+                        android:background="@drawable/btn_bg"
+                        android:textAllCaps="false"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="bottom|start"
+                android:layout_width="match_parent"
+                android:padding="20dp"
+                android:layout_height="match_parent">
+
+                <View
+                    android:layout_width="5dp"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/unselected_dots"
+                    android:layout_height="5dp"/>
+                <View
+                    android:layout_width="5dp"
+                    android:layout_margin="3dp"
+                    android:background="@drawable/unselected_dots"
+                    android:layout_height="5dp"/>
+                <View
+                    android:layout_width="5dp"
+                    android:background="@drawable/selected_dots"
+                    android:layout_margin="3dp"
+                    android:layout_height="5dp"/>
+
+                <!--                <LinearLayout-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_weight="1"-->
+                <!--                    android:orientation="horizontal"-->
+                <!--                    android:layout_height="wrap_content">-->
+                <!--                    <TextView-->
+                <!--                        android:layout_width="wrap_content"-->
+                <!--                        android:layout_height="wrap_content"-->
+                <!--                        android:text="Hello"/>-->
+                <!--                    -->
+                <!--                </LinearLayout>-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_weight="1"-->
+<!--                    android:fontFamily="@font/work_sans"-->
+<!--                    android:gravity="center|end"-->
+<!--                    android:text="@string/skip" />-->
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

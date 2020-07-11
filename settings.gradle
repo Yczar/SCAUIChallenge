@@ -1,0 +1,2 @@
+rootProject.name='SCA UI Challenge'
+include ':app'
